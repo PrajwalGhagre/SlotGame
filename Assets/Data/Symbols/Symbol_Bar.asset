@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce844a7d26b35295a916cc926888070f, type: 3}
+  m_Name: Symbol_Bar
+  m_EditorClassIdentifier: 
+  symbolType: 2
+  displayName: Bar
+  sprite: {fileID: 21300000, guid: db98416f30fd5f8890d3ffaadf7811c7, type: 3}
+  copiesOnStrip: 2
+  stopWeight: 6
+  payoutMultiplier: 15
+  winGlowColor: {r: 0.5, g: 0.8, b: 1, a: 1}
