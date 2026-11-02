@@ -3,7 +3,7 @@
 A 3 reel slot machine made in Unity 2022.3 LTS for the Underpin Services Unity Developer Intern assignment.
 It uses the art from the provided asset pack and follows the reference design (three reels, the middle row is the payline, JACKPOT machine with a lever).
 
-**Play in the browser:** https://YOUR-GITHUB-USERNAME.github.io/REPO-NAME/Build/WebGL/
+**Play in the browser:** https://prajwalghagre.github.io/SlotGame/Build/WebGL/
 
 ## Game Overview
 
