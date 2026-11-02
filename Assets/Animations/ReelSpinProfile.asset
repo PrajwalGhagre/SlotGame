@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb5d6e801dc569cb404a135dffad4fb, type: 3}
+  m_Name: ReelSpinProfile
+  m_EditorClassIdentifier: 
+  windUpDistance: 0.3
+  windUpDuration: 0.12
+  accelerationDuration: 0.35
+  accelerationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  startStagger: 0.08
+  maxSpeed: 18
+  minimumSpinDuration: 0.9
+  stopInterval: 0.32
+  anticipationExtraTime: 1.1
+  extraStopSymbols: 2
+  overshoot: 0.22
+  settleDuration: 0.18
+  minStopDuration: 0.35
+  maxStopDuration: 1.4
+  motionStretch: 0.12
+  winPulseScale: 1.15
+  winPulseDuration: 0.45
