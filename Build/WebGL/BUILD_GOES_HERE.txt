@@ -1,0 +1,7 @@
+The WebGL build goes in this folder.
+
+In Unity: Tools > Slot Game > Build WebGL
+(or File > Build Settings > WebGL > Build, and pick this folder).
+
+After building, this folder will contain index.html, Build/ and TemplateData/.
+You can delete this text file once the build is here.
