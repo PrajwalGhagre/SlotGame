@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b137353d24555daf70ee4dcc2f499b, type: 3}
+  m_Name: SlotMachineConfig
+  m_EditorClassIdentifier: 
+  symbols:
+  - {fileID: 11400000, guid: cd9045aacd6d58f19d8987ac3f7fbc3c, type: 2}
+  - {fileID: 11400000, guid: 8f26447a9dda5023a51238722694eadb, type: 2}
+  - {fileID: 11400000, guid: dcdc66b851c55bc28dee7cd002828f8a, type: 2}
+  - {fileID: 11400000, guid: 5c53ad94694e50e4a3f5950f7f702f8d, type: 2}
+  - {fileID: 11400000, guid: 0c36ef04af7f528c8e74178e4aca8d57, type: 2}
+  wildSymbol: 4
+  reelCount: 3
+  visibleRows: 3
+  stripLayoutSeed: 1234
+  useFixedSpinSeed: 0
+  spinSeed: 42
+  startingBalance: 1000
+  betLevels:
+  - 5
+  - 10
+  - 25
+  - 50
+  - 100
+  startingBetIndex: 1
+  wildAssistMultiplier: 2
+  scattersForFreeSpins: 3
+  freeSpinsAwarded: 5
+  freeSpinWinMultiplier: 2
+  bigWinBetMultiple: 15
+  animationProfile: {fileID: 11400000, guid: 49dd61ce8957523d808030f343e6d090, type: 2}
+  art:
+    background: {fileID: 21300000, guid: fc7f3f8c948b5086a75a6dd236345fc2, type: 3}
+    machineBody: {fileID: 21300000, guid: fc189aca51ce5048b95b1ee64386373a, type: 3}
+    reelBackground: {fileID: 21300000, guid: 85acba55dc1d59d09bb6bf4eba24cfa6, type: 3}
+    machineFrame: {fileID: 21300000, guid: 09e23f5fce5051939c7cde1f12f0dd07, type: 3}
+    leverUp: {fileID: 21300000, guid: 47e469ff968a5be093adb194556686ec, type: 3}
+    leverDown: {fileID: 21300000, guid: 942d26716d9c5e20bc93435e6c156b3c, type: 3}
+    panel: {fileID: 21300000, guid: e865769d44645468a7dcc4e66ca68bd4, type: 3}
+    popup: {fileID: 21300000, guid: 255f483343af593488eb14db6a78041e, type: 3}
+    glow: {fileID: 21300000, guid: 2c43f667fbb25fc78d1540f5979fd7d5, type: 3}
+    blankButton:
+      normal: {fileID: 21300000, guid: 82849b77fe6356da9cdf0ef5056c1d48, type: 3}
+      highlighted: {fileID: 21300000, guid: 3823b6638f155ddab430f1e5c3defed8, type: 3}
+      pressed: {fileID: 21300000, guid: d1b71e0304a05100b2d9a03901ece0d1, type: 3}
+      disabled: {fileID: 21300000, guid: 6a6abce9750352ffaebab58a81324735, type: 3}
+    arrowLeftButton:
+      normal: {fileID: 21300000, guid: c72aa7c823db5ae68db0d0db302a7ef2, type: 3}
+      highlighted: {fileID: 21300000, guid: 85b8dac91b1e5e22879c5801d00f6b81, type: 3}
+      pressed: {fileID: 21300000, guid: 3a819b2ab0ca596e805a5eac5f2de661, type: 3}
+      disabled: {fileID: 21300000, guid: d1b95e749e285eab85148f739332fdd1, type: 3}
+    arrowRightButton:
+      normal: {fileID: 21300000, guid: f4aa50529338542c87ef308c58f50d8c, type: 3}
+      highlighted: {fileID: 21300000, guid: 1a8a209a60e65967911da1b7d040104f, type: 3}
+      pressed: {fileID: 21300000, guid: 7da83d536dd958738b8ca872c06b2ff1, type: 3}
+      disabled: {fileID: 21300000, guid: 60383d317bd150578350e3e9b9843dcb, type: 3}
+    closeButton:
+      normal: {fileID: 21300000, guid: 43cc3532aa315983baccc8705cb17fa4, type: 3}
+      highlighted: {fileID: 21300000, guid: 046f446e3b7e5f3f9abb759819dd7e9b, type: 3}
+      pressed: {fileID: 21300000, guid: 377d2184a90359eabd1cb36040b1e497, type: 3}
+      disabled: {fileID: 21300000, guid: f5b74d1c0c8e566d9398f4bb67cc6945, type: 3}
+    yesButton:
+      normal: {fileID: 21300000, guid: 8e89de71b7cc5b138f61f2d61690d0da, type: 3}
+      highlighted: {fileID: 21300000, guid: 087e1efdbd955a2ba348991273e297bc, type: 3}
+      pressed: {fileID: 21300000, guid: 976c2e040c73570a935ea178beddff5e, type: 3}
+      disabled: {fileID: 0}
+    noButton:
+      normal: {fileID: 21300000, guid: 78ddca74f74e5f039b1e872983e24f58, type: 3}
+      highlighted: {fileID: 21300000, guid: 517a557c9263500683b2dcc85aabd26a, type: 3}
+      pressed: {fileID: 21300000, guid: 79a99bb28490540ab3a517f32b991aa2, type: 3}
+      disabled: {fileID: 0}
+    titleIdleAnimation: {fileID: 7400000, guid: cc436dd4459b5cbfa4533430024e58fa, type: 2}
+  sounds:
+    buttonClick: {fileID: 8300000, guid: 22778ae71a1a591c9caed812561c10e0, type: 3}
+    leverPull: {fileID: 8300000, guid: e28b6d246ae85640beb48b1a73f306d8, type: 3}
+    reelSpinLoop: {fileID: 8300000, guid: 0e7c1cb6afac5e2aaf1aec63c91985d7, type: 3}
+    reelStop: {fileID: 8300000, guid: 3c084a060738543b83486acc892e79a1, type: 3}
+    winSmall: {fileID: 8300000, guid: b83189eaa2df5333aeabaf9958fc9ff6, type: 3}
+    winBig: {fileID: 8300000, guid: 97597e856592514ba37ee10b6b747f3c, type: 3}
+    freeSpins: {fileID: 8300000, guid: 61b0b9af4ef25f399ea2ddfe0178bc28, type: 3}
+    error: {fileID: 8300000, guid: 273e757f1b3c5e07aa7e3662362057be, type: 3}
+    masterVolume: 0.8
+    spinLoopVolume: 0.35
